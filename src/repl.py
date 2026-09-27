@@ -2,7 +2,7 @@
 from src.parser import parse_input
 from src.commands import execute_ls, execute_cd
 
-VFS_NAME = "Stariy"
+VFS_NAME = "vfs"
 
 def run_repl() -> None:
     """Запуск интервального цикла REPL"""
