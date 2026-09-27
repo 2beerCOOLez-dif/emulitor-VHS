@@ -2,9 +2,8 @@
 
 def execute_ls(args: list[str]) -> str:
     """выполнение заглушку команды ls"""
-    # Если аргументы есть, соединяем их через запятую. Если нет, пишем "none"
     args_str = ", ".join(args) if args else "none"
-    return f"ls called with args: {args_str}" # Возвращаем красивую строку
+    return f"ls called with args: {args_str}" 
 
 def execute_cd(args: list[str]) -> str:
     """выполнение заглушку команды cd"""
